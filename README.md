@@ -3,7 +3,7 @@
 ### 1. Rama de producción (master)
 Esta rama representa la última base de código lanzado/implementado. Sólo es actualizada mediante la fusión de otras ramas en él.
 ### 2. Rama de desarrollo (develop)
-Esta es su rama de desarrollo principal donde se colocan todos los cambios destinados a la próxima versión, ya sea mediante la confirmación directa de pequeños cambios o mediante la fusión de otras ramas (por ejemplo, ramas de características) en esta rama.
+Esta es la rama de desarrollo principal, donde se colocan todos los cambios destinados a la próxima versión, ya sea mediante la confirmación directa de pequeños cambios o mediante la fusión de otras ramas (por ejemplo, ramas de características) en esta rama.
 ### 3. Ramas de características (feature/) 
 Cuando comienza a trabajar en algo no trivial, crea una rama de características. Cuando termine, volverá a combinar esta rama en la rama de desarrollo para ponerla en cola para la próxima versión.
 ### 4. Ramas de lanzamiento (release/) 
