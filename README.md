@@ -8,11 +8,6 @@ Esta es la rama de desarrollo principal, donde se colocan todos los cambios dest
 ```git
 git checkout -b feature/[name_branch] 
 ```
-or
-```
-git branch feature/[name_branch] 
-git checkout feature/[name_branch] 
-```
 Cuando comienza a trabajar en algo no trivial, crea una rama de características. Cuando termine, volverá a combinar esta rama en la rama de desarrollo para ponerla en cola para la próxima versión.
 ### 4. Ramas de lanzamiento (release/) 
 Cuando está a punto de empaquetar un nuevo lanzamiento, crea una rama de lanzamiento desde la rama de desarrollo. Puede comprometerse con él durante su preparación para un lanzamiento, y cuando esté listo para ser implementado, lo fusiona tanto en la rama de desarrollo como en la rama maestra (para indicar que el lanzamiento se ha implementado).
